@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <main className="main">
-     <BrowserRouter>
+    
      <Routes>
    
      <Route exact path= '/' element={<Home/>} ></Route>
@@ -21,8 +21,7 @@ function App() {
      
      </Routes>
      
-     
-     </BrowserRouter>
+  
     
       </main>
       <Navbar/>

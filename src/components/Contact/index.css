@@ -1,0 +1,75 @@
+.form-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-container form {
+    gap:10px;
+   
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-container form input, .form-container form textarea {
+    border:2px solid  #122620;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.form-container form input {
+    height: 50px;
+   
+    
+   
+}
+.group-form  {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.group-form  input {
+    width: 49%;
+}
+
+.form-container form input[type = 'submit'] {
+    background-color: #122620;
+    color: #D6AD60;
+    font-size: 18px;
+    transition: .5s ease;
+}
+
+.form-container form input[type = 'submit']:hover {
+    border:2px solid #122620;
+    background-color: transparent;
+    color:#122620;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    padding-top: 10px;
+  
+
+}
+.form-container form input[type = 'number']::-webkit-inner-spin-button,.form-container form input[type = 'number']::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0;
+}
+.form-container form input[type = 'number'] {
+    -moz-appearance: textfield !important;
+}
+
+::placeholder {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#122620;
+}
+
+.form-container form  input:focus,
+.form-container form  textarea:focus
+
+{
+ outline: 1px solid #122620;
+}
