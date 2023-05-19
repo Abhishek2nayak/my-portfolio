@@ -12,7 +12,7 @@ const Navbar = () => {
         </span>
         <button onClick={()=> setExpanded(!expanded)}><i class="fa-solid fa-bars"></i></button>
       </div>
-      <ul className={expanded ? "" : "expanded"}>
+      <ul className={expanded ? "expanded" : ""}>
         <li className="link">
           <Link to="/">Home</Link>
         </li>
