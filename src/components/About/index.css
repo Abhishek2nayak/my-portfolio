@@ -88,6 +88,54 @@
    
 }
 .connect {
-    padding-top: 20px;
+    display: flex;
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px)  {
+    .about-container {
+        display: block;
+    }
+    .about-container  .right {
+        width: 100%;
+
+    }
+    .about-container .left {
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        
+    }
+    .about-container .left  img{
+      width: 100px;
+      height: 100px;
+     border-radius: 50%;
+    }
+    .header-area h1,h3 {
+        font-size: 2rem;
+    }
+    .header-area h3 {
+        font-size: 1.1rem;
+    }
+    .about-container .right .right-up {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .right-down {
+        width: 100%;
+        height: auto;
+    }
+    .right-down .top-header {
+        padding-left: 30px;
+    }
+    .about-body {
+    padding:10px 10px 10px 30px;
+    }
+    .connect {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
 }

@@ -26,8 +26,9 @@ const Contact = () => {
 
   return (
     <>
-      <center>
-        <h1 className="header-title">.Get In Touch</h1>
+    
+    <center>
+        <h1 className="header-title" >.Get In Touch</h1>
       </center>
       <div className="form-container">
         <form  ref={form} onSubmit={sendEmail} >
@@ -41,6 +42,8 @@ const Contact = () => {
           <input type="submit" value={'Submit'} />
         </form>
       </div>
+   
+     
     </>
   );
 }

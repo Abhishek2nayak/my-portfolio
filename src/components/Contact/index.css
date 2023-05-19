@@ -1,13 +1,18 @@
+
+
+
 .form-container {
     
+     
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    padding-bottom: 50px;
 
 }
 .form-container form {
     gap:10px;
-   
+    padding: 0 20px;
     width: 500px;
     display: flex;
     flex-direction: column;
