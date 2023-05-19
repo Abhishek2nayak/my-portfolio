@@ -35,13 +35,33 @@ const About = () => {
                 what really sets me apart is my dedication to collaborating with
                 others and contributing to open source projects.
               </p>
+             
+             <h4> Connect with me</h4>
 
               <div className="connect">
-                Connect with me <br />
-                <Link target='_blank'  to="https://twitter.com/N_Abhishek09"> <i class="fa-brands fa-twitter"></i></Link>
-     <Link target='_blank' to="https://www.linkedin.com/in/abhishek-nayak-6b0a13271/"> <i class="fa-brands fa-linkedin-in"></i></Link>
-     <Link target='_blank' to="https://github.com/Abhishek2nayak"> <i class="fa-brands fa-github"></i></Link>
-     <Link target='_blank' to="https://www.instagram.com/abhishek_nayak_18/"> <i class="fa-brands fa-instagram"></i></Link>
+                <br />
+                <Link target="_blank" to="https://twitter.com/N_Abhishek09">
+                  {" "}
+                  <i class="fa-brands fa-twitter"></i>
+                </Link>
+                <Link
+                  target="_blank"
+                  to="https://www.linkedin.com/in/abhishek-nayak-6b0a13271/"
+                >
+                  {" "}
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </Link>
+                <Link target="_blank" to="https://github.com/Abhishek2nayak">
+                  {" "}
+                  <i class="fa-brands fa-github"></i>
+                </Link>
+                <Link
+                  target="_blank"
+                  to="https://www.instagram.com/abhishek_nayak_18/"
+                >
+                  {" "}
+                  <i class="fa-brands fa-instagram"></i>
+                </Link>
               </div>
             </div>
           </div>
